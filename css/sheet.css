@@ -1,0 +1,403 @@
+body{
+    display: flex;
+    margin: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #0a3e1e;
+    color: azure;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.first img{
+    border-radius: 20px;
+    width: 70%;
+}
+
+.flex-container {
+    display: flex;
+    color: white;
+}
+
+.hd{
+    background-color: rgba(48, 94, 69, 0.9);
+    padding: 10px;
+    width: 100%;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    color: #216a25;
+}
+
+
+.inn{
+    padding: 1px;
+    margin-left: 50px;
+    flex: 1;
+    width: 50%;
+}
+
+.headertop{
+    padding: 1px;
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hd a:hover{
+    background-color: rgba(91, 160, 132, 0.9);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 17px;
+}
+
+
+
+main{
+    flex: 1;
+
+    box-sizing: border-box;
+    margin-left: 20%;
+    margin-right: none;
+    overflow: hidden;
+    width: 100%;
+}
+header{
+    width: 20%; /* Set the width of the left-sticky header */
+    background-color: #353635 0.7;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #33a479;
+    
+}
+#sresult{
+background-color: rgba(141, 235, 147, 0.3);
+border-radius: 4px;
+padding: 2px;
+margin-top: 2px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    gap: 20px;
+    color: #33a44a;
+}
+
+.logo img{
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.foot{
+    position: fixed;
+    
+}
+
+button{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 70px;
+    background-color: #8b8c67 0.8;
+    color: rgb(240, 248, 255, 0.8);
+    border: 20px;
+    box-shadow: 20px 40px 40px rgba(227, 237, 231, 0.1);
+    border: 2px solid rgba(108, 131, 120, 0.4); /* Border color */
+}
+
+#arrows{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    gap: 20px;
+}
+
+.navhome{
+    background-color: rgba(79, 83, 79, 0.4);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.signupinput{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.headerrecently{
+    background-color: rgba(79, 83, 80, 0.4);
+    border-radius: 21px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.navhome a {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    color: rgb(140, 173, 136);
+    text-align: left;
+}
+
+.navhome a:hover {
+    padding: 2px;
+    color: rgba(0, 128, 9, 0.8);
+    font-weight: bold;
+}
+
+.headerrecently a{
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    color: rgb(178, 212, 195);
+    background-color: rgba(112, 170, 129, 0.1);
+    padding: 2px;
+}
+
+.hd a{
+    color: rgb(178, 212, 181);
+    border-radius: 20px;
+    padding: 8px;
+    background-color: rgba(112, 170, 119, 0.4);
+    margin-right: 20px;
+    padding: 16px;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+}
+
+h2, h4{
+    padding: 10px;
+    text-align: center;
+}
+.navbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.first{
+    border-color: black 0.8;
+    box-shadow: 30px;
+    background-color: rgba(134, 170, 112, 0.4);
+    width: 80%;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px; /* Border radius for rounded corners */
+    box-shadow: 20px 40px 40px rgba(17, 234, 50, 0.1);
+}
+
+.trending{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.Recently-played{
+ padding: 80px;
+ display: flex;
+ flex-direction: column;
+}
+
+
+.trend{
+    border: 2px;
+    border-color: rgba(233, 240, 234, 0.2);
+    box-shadow: 30px;
+    background-color: rgba(171, 244, 158, 0.2);
+    width: 100%;
+    margin: 8px;
+    padding: 8px;
+    border: 2px #33a44a; /* Border color */
+    border-radius: none; /* Border radius for rounded corners */
+    box-shadow: 20px 40px 40px rgba(151, 234, 17, 0.1);
+}
+
+.trnd img{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    text-align: center;
+}
+.trnd{
+    display: flex;
+    border: 2px;
+    border-color: rgba(234, 240, 233, 0.2);
+    box-shadow: 30px;
+    background-color: rgba(158, 244, 161, 0.2);
+    width: 100%;
+    margin: 8px;
+    padding: 8px;
+    border: 2px #33a44b; /* Border color */
+    border-radius: none; /* Border radius for rounded corners */
+    box-shadow: 20px 40px 40px rgba(104, 234, 17, 0.1);
+    text-align: center;
+    gap: 20px;
+}
+
+nav a {
+   
+    margin-bottom: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.in{
+    padding: 8px;
+}
+
+input{
+    border: #216a25;
+    cursor: pointer;
+    width: 40%;
+    padding: 20px;
+    background-color: rgba(94, 122, 83, 0.6);
+    border-radius: 10px;
+}
+
+input::placeholder{
+color: rgb(202, 228, 32, 0.4);
+}
+
+input:hover{
+    border: #216a2c;
+    cursor: pointer;
+    width: 40%;
+    background-color:  rgba(127, 156, 108, 0.6);
+}
+
+button{
+    color: wheat;
+    background-color: rgba(132, 197, 122, 0.6);
+}
+
+button:hover{
+    background-color: rgba(145, 204, 147, 0.6);
+    cursor: pointer;
+}
+
+
+.featuredartists{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+    
+}
+
+.artists img{
+    width: 80%;
+    border-radius: 30%;
+}
+
+.artists{
+    text-align: center;
+    border: 20px;
+    border-color: black;
+    box-shadow: 30px;
+    background-color: rgba(62, 87, 56, 0.8);
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #354738; /* Border color */
+    border-radius: 970px; /* Border radius for rounded corners */
+    box-shadow: 20px 40px 40px rgba(123, 197, 110, 0.1);
+}
+
+.browseall{
+    text-align: center;
+    border: 20px;
+    border-color: black;
+    box-shadow: 30px;
+    background-color: rgba(57, 87, 56, 0.8);
+    width: 9%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #35473b; /* Border color */
+    border-radius: 20px; /* Border radius for rounded corners */
+    box-shadow: 20px 40px 40px rgba(197, 172, 110, 0.1);
+}
+
+#music-player {
+    display: flex;
+    float: right;
+    background-color: rgba(48, 94, 61, 0.9);
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+#music-player h2{
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 400px;
+}
+
+audio{
+    width: 800px;
+    height: 40px;
+    background-color: #17531d 0.4;
+}
+
+
+/* Style the audio controls */
+#music-player {
+    width: 100%;
+    background-color: rgba(50, 67, 52, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(75, 161, 94, 0.1);
+}
+
+/* Style additional controls like volume and progress bar if needed */
+#music-player input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#music-player button {
+    margin-top: 10px;
+    background-color: #305e33;
+    color: rgba(99, 234, 99, 0.7);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the volume icon if your audio player has one */
+#music-player .audio-player icon{
+    color: #f30909;
+    font-size: 20px;
+    margin-right: 5px;
+}

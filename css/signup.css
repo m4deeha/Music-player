@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(43, 226, 83);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #0a3e1e;
+    color: azure;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 70px;
+    background-color: #a5eb9d 0.8;
+    color: rgba(141, 187, 123, 0.8);
+    border: 20px;
+    box-shadow: 20px 40px 40px rgba(237, 227, 227, 0.1);
+    border: 2px solid rgb(120, 108, 131, 0.4); /* Border color */
+}
+
+#bbtn{
+    background-color: aliceblue;
+    color: #120e1e;
+}
+
+#dbtn{
+    color: aliceblue;
+    background-color: #120e1e;
+}
+
+.ssss{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.signupinput{
+    display: flex;
+    background-color: rgba(105, 217, 109, 0.9);
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    align-items:  center;
+    gap: 80px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+}
+
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+input{
+    border: #4c8458;
+    cursor: pointer;
+    width: 40%;
+    padding: 20px;
+    background-color: rgba(83, 122, 97, 0.6);
+    border-radius: 10px;
+}
+
+
+input::placeholder{
+    color: rgb(202, 228, 32, 0.4);
+    }
+
+a{
+    font-weight: bold;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.foot{
+    gap:  20px;
+    text-align: center;
+    display: flex;
+    margin-left: 10px;
+    justify-content: flex-end;
+}
+
+.foot a{
+    background-color: rgba(139, 192, 126, 0.7);
+    padding: 20px;
+    border-radius: 30px;
+    width: 8%;
+}
